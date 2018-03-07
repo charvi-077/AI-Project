@@ -14,6 +14,7 @@ Tested on:
 
 #### Download the dataset
 The dataset is downloaded and extracted to the `data` directory.
+
 !wget https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar
 
 
@@ -28,8 +29,7 @@ python3 plot_history.py --input models/history_16_8.h5
 
 
 ##### Results with data
-The best val_loss was improved from 3.969 to 3.731:
-
+The val_loss was 4.7
 
 
 
