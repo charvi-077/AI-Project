@@ -3,33 +3,23 @@ This is a Keras implementation of a CNN for estimating age and gender from a fac
 In training, [the IMDB-WIKI dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) is used.
 
 ## Dependencies
-- Python3.5+
+- Python 3
 - Keras2.0+
 - scipy, numpy, Pandas, tqdm
-- OpenCV3
+- OpenCV
 
 Tested on:
-- Ubuntu 16.04, Python 3.5.2, Keras 2.0.3, Tensorflow(-cpu)
-  - CPU ,GPU:k80 (colab)
+- CPU ,GPU:k80 (colab)
 - Python 3.6.0, Keras 2.0.2, Tensorflow 1.0.0
-
-
-### Trained the  model using the IMDB-WIKI dataset
 
 #### Download the dataset
 The dataset is downloaded and extracted to the `data` directory.
-
-```sh
-./download.sh
-```
-
+!wget https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar
 
 
 #### Train network
 Train the network using the training data created above.
-
-
-
+ 
 #### Plot training curves from history file
 
 ```sh
